@@ -38,3 +38,44 @@ header .navber .head-menu{display: flex;justify-content: flex-end;align-items: c
 header .navber .head-menu button{background-color: transparent;border: none; padding: 5px; border: 1px solid #fff; border-radius: 50%;}
 header .navber .head-menu svg{color: #fff; font-size: 25px;}
 
+footer{background-color: var(--primary);padding: 40px 0;}
+footer .foo-desc{}
+footer .foo-desc img{}
+footer .foo-desc p { color: #fff; padding: 20px 0 10px 0; }
+footer .foo-desc .foo-desc-icon{display: flex;}
+footer .foo-desc .foo-desc-icon a {margin-right: 20px;transition: 0.5s; border: 1px solid #fff;border-radius: 50%;padding: 7px;color: #fff;}
+footer .foo-desc .foo-desc-icon a svg{font-size: 20px;}
+footer .foo-desc .foo-desc-icon a:hover{background-color: var(--secondary);border-color: var(--secondary);color: var(--primary);}
+footer .foo-service{}
+footer .foo-service h4{color: #fff;}
+footer .foo-service ul{padding: 0 !important;}
+footer .foo-service ul li{list-style: none;color: #fff;padding: 8px 0;}
+footer .foo-service ul li a{color: #fff;font-size: 15px;text-decoration: none;}
+footer .foo-service ul li a:hover{color: var(--secondary);}
+footer .foo-contact{}
+footer .foo-contact h4{color: #fff;}
+footer .foo-contact ul{padding: 0 !important;}
+footer .foo-contact ul li{list-style: none;list-style: none;padding: 8px 0;}
+footer .foo-contact ul li a{color: #fff;text-decoration: none;font-size: 15px;}
+footer .foo-contact ul li:hover a{color: var(--secondary);}
+footer .foo-sub{}
+footer .foo-sub h4{color: #fff;}
+footer .foo-sub p {color: #fff; padding: 10px 0;}
+footer .foo-sub form{padding: 5px 5px;border-radius: 10px; border: 1px solid transparent;background-color: #000;display: flex;justify-content: space-between;} 
+footer .foo-sub form input{color: #fff; width: 100%;background-color: transparent; border: none; }
+footer .foo-sub form input:focus-visible{outline: none;}
+footer .foo-sub form label{width: 30%;}
+footer .foo-sub form label button{transition: 0.5s; width: 100%;padding: 5px;border-radius: 10px;background-color: var(--secondary);color: #fff;border: none;}
+footer .foo-sub form label button svg{font-size: 20px;transition: 0.5s;}
+footer .foo-sub form label button:hover svg{transform: rotate(45deg);color: var(--secondary);}
+footer .foo-sub form label button:hover{background-color: var(--primary);}
+.foo-bottom{background-color: var(--primary);}
+.foo-bottom .foo-bottom-inner{border-top: 1px solid #fff;padding: 20px 0;}
+.foo-bottom-copyright{}
+.foo-bottom-copyright p{color: #fff;}
+.foo-bottom-links{display: flex; justify-content: flex-end;}
+.foo-bottom-links ul{display: flex;}
+.foo-bottom-links ul li{list-style: none;padding: 0 10px;}
+.foo-bottom-links ul li a{color: #fff;text-decoration: none;}
+.foo-bottom-links ul li a:hover{color: var(--secondary);}
+
