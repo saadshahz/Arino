@@ -4,9 +4,14 @@ import Footer from "@/component/common/footer/Footer";
 import Header from "@/component/common/header/Header";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
-import { IoTriangle } from "react-icons/io5";
+import { IoTriangle, IoArrowForwardSharp } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
-import SubcribeSideMenu from "@/component/common/header/SubcribeSideMenu";
+import digital from "@/public/images/digital.jpg";
+import react from "@/public/images/react.jpg";
+import uiux from "@/public/images/uiux.jpg";
+import technology from "@/public/images/technology.webp";
+import Image from "next/image";
+import PortfolioSlider from "@/component/PortfolioSlider";
 
 export default function Home() {
   return (
@@ -82,32 +87,69 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container">
-        <div className="fun-fact">
-          <div className="row">
-            <div className="col-md-6">
-              <div className="fun-fact-desc">
-                <h1>Our fun fact</h1>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis.
-                </p>
+      <section className="fun-fact">
+        <div className="container">
+          <div className="fun-fact-inner">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="fun-fact-desc">
+                  <h1>Our fun fact</h1>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque
+                    ipsa quae ab illo inventore veritatis.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="col-md-6">
-              <div className="fun-fact-counter">
-                <div className="row">
-                  <div className="col-md-6"></div>
-                  <div className="col-md-6"></div>
-                  <div className="col-md-6"></div>
-                  <div className="col-md-6"></div>
+              <div className="col-md-6">
+                <div className="fun-fact-counter">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="number-of-fact">
+                        <h2>40K</h2>
+                        <div>
+                          <span>+</span>
+                          <p>Global Happy Clients</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="number-of-fact">
+                        <h2>50K</h2>
+                        <div>
+                          <span>+</span>
+                          <p>Project Completed</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="number-of-fact">
+                        <h2>245</h2>
+                        <div>
+                          <span>+</span>
+                          <p>Team Members</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="number-of-fact">
+                        <h2>550</h2>
+                        <div>
+                          <span>+</span>
+                          <p>Digital products</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      
+
+     
 
       <Footer />
     </>
