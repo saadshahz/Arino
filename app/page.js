@@ -147,9 +147,65 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
 
-     
+      <section className="services">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-5">
+              <div className="services-desc">
+                <h3>What Can We Do</h3>
+                <h2>Services we can help you with</h2>
+                <button>
+                  See All Services
+                  <IoArrowForwardSharp />{" "}
+                </button>
+              </div>
+            </div>
+            <div className="col-md-7">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-3"></div>
+                  <div className="col-md-3">
+                    <div className="services-image">
+                      <Image src={digital} />
+                      <p>Digital Marketing</p>
+                    </div>
+                  </div>
+                  <div className="col-md-3"></div>
+                  <div className="col-md-3">
+                    <div className="services-image">
+                      <Image src={react} />
+                      <p>React Development</p>
+                    </div>
+                  </div>
+                  <div className="col-md-3">
+                    <div className="services-image">
+                      <Image src={uiux} />
+                      <p>UI/UX Design</p>
+                    </div>
+                  </div>
+                  <div className="col-md-3"></div>
+                  <div className="col-md-3">
+                    <div className="services-image">
+                      <Image src={technology} />
+                      <p>Next Development</p>
+                    </div>
+                  </div>
+                  <div className="col-md-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="home-portfolio">
+        <div className="home-portfolio-title">
+          <h3>Latest Projects</h3>
+          <h2>Portfolio to explore</h2>
+        </div>
+        <PortfolioSlider />
+      </section>
 
       <Footer />
     </>
