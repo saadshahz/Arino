@@ -10,8 +10,12 @@ import digital from "@/public/images/digital.jpg";
 import react from "@/public/images/react.jpg";
 import uiux from "@/public/images/uiux.jpg";
 import technology from "@/public/images/technology.webp";
-import Image from "next/image";
+
 import PortfolioSlider from "@/component/PortfolioSlider";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
+import Image from "next/image";
+import TeamMemberSlider from "@/component/team/TeamMemberSlider";
 
 export default function Home() {
   return (
@@ -205,6 +209,49 @@ export default function Home() {
           <h2>Portfolio to explore</h2>
         </div>
         <PortfolioSlider />
+      </section>
+
+      <section className="home-team">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="home-team-title">
+                <h3>Our Team</h3>
+                <h2>Awesome Team Members</h2>
+              </div>
+            </div>
+            <div className="col-md-12">
+              <TeamMemberSlider />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="anoucement-section">
+        <marquee scrollamount="15">Our reputed world wide partners</marquee>
+      </section>
+
+      <section className="meeting">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="banner-title-shape">
+                <IoTriangle />
+              </div>
+
+              <div className="meeting-inner-section">
+                <h2>Lets disscuse make something cool together</h2>
+                <Link href={"#"}>
+                  Apply For Meeting
+                  <FaLongArrowAltRight />
+                </Link>
+              </div>
+              <div className="banner-desc-shape">
+                <IoTriangle />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <Footer />
